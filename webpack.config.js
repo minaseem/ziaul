@@ -5,4 +5,4 @@
 var config = require("config");
 var swConfig = require("./config/swConfig");
 
-module.exports = [Object.assign({}, config.get("webpack")), swConfig];
+module.exports = Object.assign({}, config.get("webpack"));//[Object.assign({}, config.get("webpack")), swConfig];

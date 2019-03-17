@@ -1,0 +1,2 @@
+.app-container{display:flex}#app,body,html{margin:0;padding:0;font-family:Inconsolata,monospace}
+.content{flex:1 0 0;background:url(./images/dot.png);display:flex;padding:20px}.leftBar{flex-basis:35%;border-right:1px solid #dedede;padding-right:20px}.rightBar{flex-basis:65%;padding-left:20px}.author{background:url(./images/author.JPG) no-repeat;background-size:contain;width:300px;height:300px}.about{font-family:Dancing Script,cursive}.about .name{font-size:38px}.about .role{margin-bottom:30px}

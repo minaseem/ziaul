@@ -15,7 +15,7 @@ class App extends Component {
     render() {
         return (
             <div id="app" className="app-container">
-                <Sidebar></Sidebar>
+                {/*<Sidebar></Sidebar>*/}
                 <Content></Content>
             </div>
         );

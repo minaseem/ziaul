@@ -38,7 +38,7 @@ module.exports = {
                 {
                     from: path.resolve(__dirname + '/../src/manifest.json'),
                     to: path.resolve(__dirname + '/../docs/')
-                },
+                }/*,
                 {
                     from: path.resolve(__dirname + '/../src/images/author-192x192.jpg'),
                     to: path.resolve(__dirname + '/../docs/images/')
@@ -46,7 +46,7 @@ module.exports = {
                 {
                     from: path.resolve(__dirname + '/../src/images/author-512x512.jpg'),
                     to: path.resolve(__dirname + '/../docs/images/')
-                }
+                }*/
             ])
         ],
         module: {
@@ -80,7 +80,7 @@ module.exports = {
                         }
                     ]
                 },
-                {test: /\.(png|svg|jpg)$/, use: 'file-loader?name=./images/[name].[ext]'}
+                {test: /\.(png|svg|jpg|JPG)$/, use: 'file-loader?name=./images/[name].[ext]'}
             ]
         },
         devtool: 'cheap-module-eval-source-map',
