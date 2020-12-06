@@ -1,0 +1,71 @@
+@import "variables";
+/* Font Weights */
+
+.thin {
+  font-weight: 400;
+}
+
+.bold {
+  font-weight: 600;
+}
+.bolder {
+  font-weight: 700;
+}
+
+/* Font Sizes */
+
+.text-extra-large {
+  font-size: 1.5rem; /* 24px */
+}
+
+.text-large {
+  font-size: 1.25rem; /* 20px */
+}
+
+.text-big {
+  font-size: 1.125rem; /* 18px */
+}
+
+.text-normal-1 {
+  font-size: 1.0625rem;  /* 17px */
+}
+
+.text-normal {
+  font-size: 1rem;  /* 16px */
+}
+
+.text-medium-1 {
+  font-size: 0.9375rem; /* 15px */
+}
+
+.text-medium {
+  font-size: 0.875rem; /* 14px */
+}
+
+.text-small-1 {
+  font-size: 0.8125rem; /* 13px */
+}
+
+.text-small {
+  font-size: 0.75rem; /* 12px */
+}
+
+.text-mini {
+  font-size: 0.625rem; /* 10px */
+}
+
+.text-primary {
+  color: $text-primary;
+}
+.text-secondary {
+  color: $text-secondary;
+}
+
+.text-brand {
+  color: $brandColor;
+}
+
+a {
+  color: $brandColor;
+}
+

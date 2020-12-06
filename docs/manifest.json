@@ -1,21 +1,15 @@
 {
-  "short_name": "Imam",
-  "name": "Imamudin Naseem Portfolio",
+  "short_name": "Paytm Education",
+  "name": "Paytm Education App",
   "icons": [
-    /*{
-      "src": "/images/author-192x192.jpg",
-      "type": "image/jpg",
-      "sizes": "192x192"
-    },
     {
-      "src": "/images/author-512x512.jpg",
-      "type": "image/jpg",
-      "sizes": "512x512"
-    }*/
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
   ],
-  "start_url": "/",
-  "background_color": "#008080",
-  "display": "fullscreen",
-  "scope": "/",
-  "theme_color": "#008080"
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
 }

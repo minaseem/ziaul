@@ -1,0 +1,48 @@
+@import "../../commonstyles/variables.scss";
+
+.achievements-wrapper {
+height: calc(100vh - 80px);
+}
+.achievements {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-card {
+  min-width: 180px !important;
+  height: 150px;
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
+  .card-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+    border: none;
+    transition: all ease-in 200ms;
+    &:hover {
+      box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+      transform: scale(1.05);
+    }
+  }
+}
+
+.name {
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  white-space: nowrap;
+}
+
+.count {
+    padding-top: 15px;
+    font-size: 40px;
+    color: $brandColor;
+}

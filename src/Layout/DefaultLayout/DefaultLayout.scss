@@ -1,0 +1,48 @@
+@import '../../commonstyles/variables.scss';
+
+.mainContainer {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    footer {
+        font-size: 0.85rem;
+        color: $text-secondary;
+        padding-top: 20px;
+        .socialIcons {
+            i {
+                padding: 8px;
+                &:hover {
+                    color: $text-primary;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .brandName {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .brandWrapper {
+        .brandName {
+
+        }
+        .title {
+            font-size: 17px;
+            font-style: italic;
+            color: #888;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        footer {
+            display: flex;
+            flex-direction: column-reverse;
+            font-size: 0.7rem;
+            text-align: center;
+            .socialIcons i {
+                padding: 20px;
+            }
+        }
+    }
+}

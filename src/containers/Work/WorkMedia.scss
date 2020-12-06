@@ -1,0 +1,64 @@
+@import "../../commonstyles/variables.scss";
+
+
+@keyframes expand {
+  0% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.4) translateX(5px);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.arrowAnimation {
+  animation: expand 1300ms ease-out infinite;
+  margin-left: 8px;
+}
+
+.work-page {
+  background: url("../../Img/spiral.svg") no-repeat;
+  background-position: center;
+  background-size: 410px;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 30px;
+}
+.checkout-text {
+  font-size: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  &:hover {
+    text-decoration: none;
+  }
+}
+.modal-90w {
+  width: 90% !important;
+  max-width: 90% !important;
+}
+
+.video-container {
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:30px;
+  height:0;
+  overflow:hidden;
+  &:first-child {
+    margin-top: 70px;
+  }
+  margin-bottom: 50px;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
